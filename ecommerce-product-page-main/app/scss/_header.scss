@@ -1,0 +1,67 @@
+
+.header{
+
+    &___toggle{
+        // padding:1rem;
+    }
+
+    &__logo{
+        img {
+            width: 8.8125rem;
+            height: 1.375rem;
+          }
+    }
+    &__links{
+
+        a{
+            color:$darkGrayishBlue;
+            transition:color 200ms ease-in-out;
+            position: relative;
+            // min-width: 100px;
+
+            &:not(:last-child){
+                margin-right: 2.125rem;
+            }
+            &:hover{
+                color:$veryDarkBlue;
+            }
+
+            &::before{
+                content:"";
+                position:absolute;
+                top:12px;
+                left:50%;
+                width:50px;
+                height: 50px;
+                border:4px solid $black;
+                transform: translateX(-50%) translateY(-50%) scale(0.5);
+                border-radius: 5%;
+                background: transparent;
+                opacity: 0;
+                transition: all 0.3s;
+                z-index: -1;
+            }
+            &:hover::before{
+                opacity: 1;
+                width: 250%;
+            }
+        }
+    }
+
+    &__cart {
+        img{
+            width: 1.562rem;
+            height: 1.562rem;
+        }
+        margin-right: 2.75rem;
+    }
+    &__avatar{
+        img{
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+    nav{
+        padding:1.5rem;
+    }
+}

@@ -1,0 +1,243 @@
+body{
+  margin: 0px;
+}
+/*Background Colors*/
+.green{
+    background: #71ce77;
+}
+
+.yellow{
+  background: #e5db6b;
+}
+
+.red{
+  background: #ef584a;
+}
+
+.orange{
+  background: #ffab44;
+}
+
+.blue{
+  background: #80c4cc;
+}
+
+.violet{
+  background: #cf77ff;
+}
+
+div.container{
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;  
+}
+
+div.container a{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Lato;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/*Swipe left animation*/
+/*
+div.swipe a:before{
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.swipe a:after{
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.swipe a:hover:before{
+  width: 100%;
+}
+
+div.swipe a:hover:after{
+  width: 5px;
+  opacity: 1;
+}
+
+*/
+/*Pull Down animation*/
+/*
+div.pullDown a:before{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  top: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+div.pullDown a:after{
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  right: 0px;
+  bottom: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+div.pullDown a:hover:before{
+  height: 100%;
+  opacity: 0.3;
+}
+
+div.pullDown a:hover:after{
+  width: 100%;
+  opacity: 1;
+}
+*/
+/*Center Out animation*/
+/*
+div.centerOut a:before,
+div.centerOut a:after{
+  position: absolute;
+  top: 0%;
+  width: 2px;
+  height: 100%;
+  background: #FFF;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+div.centerOut a:before{
+  left: 0px;
+  transform: translateX(10px);
+}
+
+div.centerOut a:after{
+  right: 0px;
+  transform: translateX(-10px);
+}
+*/
+/*
+div.centerOut a:hover:before,
+div.centerOut a:hover:after{
+  opacity: 1;
+  height: 100%;
+  transform: translateX(0px);
+}
+*/
+/*Sides Up animation*/
+/*
+div.sidesUp a:before, 
+div.sidesUp a:after{
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  bottom: 0px;
+  content: "";
+  background: #FFF;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.sidesUp a:before{
+  left: 0px;
+}
+
+div.sidesUp a:after{
+  right: 0px;
+}
+
+div.sidesUp a:hover:before,
+div.sidesUp a:hover:after{
+  height: 5px;
+  width: 100%;
+  opacity: 1;
+}
+*/
+/*Highlight borderBehind*/
+div.borderBehind a:before{
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border: 4px solid #FFF;
+  transform: translateX(-50%) translateY(-50%) scale(0.5);
+  border-radius: 5%;
+  background: transparent;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+div.borderBehind a:hover:before
+{
+  opacity: 1;
+  width: 200%;
+}
+
+/*Top Down*/
+div.topDown a:before{
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0px;
+  top: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+div.topDown a:after{
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  right: 0px;
+  bottom: 0px;
+  content: '';
+  background: #FFF;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+div.topDown a:hover:before{
+  top: 100%;
+  opacity: 1;
+}
+
+div.topDown a:hover:after{
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
