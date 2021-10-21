@@ -20,9 +20,9 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <nav class="flex flex-j-c-sb flex-a-i-c">
-        <a href="#" class="header__toggle" onclick="toggleNavbar(event);">
+    <div class="overlay has-fade"></div>
+      <nav id="header-nav" class="flex container flex-j-c-sb flex-a-i-c">
+        <a href="#" class="header__toggle">
           <!-- <img src="images/icon-menu.svg" alt=""> -->
           <span></span>
           <span></span>
@@ -31,7 +31,7 @@
         <div class="header__logo">
           <img src="images/logo.svg" alt="">
         </div>
-        <div class="header__links">
+        <div class="header__links hide-for-mobile">
           <a href="#">Collections</a>
           <a href="#">Men</a>
           <a href="#">Women</a>
@@ -47,9 +47,19 @@
           </div>
         </div>
       </nav>
-    </div>
-  </header>
+      <!--Menu for mobile-->
+      <div class="header__menu">
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
 
+  </header>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit tenetur facilis iure vero asperiores et nisi blanditiis rerum vitae dolore.
+  </p>
   Collections
   Men
   Women

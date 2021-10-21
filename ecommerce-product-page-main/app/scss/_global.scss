@@ -5,6 +5,9 @@ body{
     line-height: 1.3;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
+    font-size: $font-sm;
+    color:$darkGrayishBlue;
 }
 
 .flex{
@@ -32,10 +35,18 @@ a, a:hover{
 }
 
 .container{
-    padding-left:10.312rem;
-    padding-right: 10.312rem;
-    padding-top:1rem;
-    padding-bottom:2.062rem;
+    padding-top:1.25rem; 
+    padding-left:1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+
+    @include breakpoint-up(large){
+        padding-left:10.312rem;
+        padding-right: 10.312rem;
+        padding-top:1rem;
+        padding-bottom:2.062rem;
+    }
+
 }
 
 .hide-for-mobile{
