@@ -9,10 +9,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | E-commerce product page</title>
+  <title>Naveen Vijayan</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="app/scss/styles.css">
+  <link rel="stylesheet" href="app/scss/animations.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -22,30 +23,31 @@
   <header class="header">
     <div class="overlay has-fade"></div>
       <nav id="header-nav" class="flex container flex-j-c-sb flex-a-i-c">
-        <a href="#" class="header__toggle">
+        <a href="#" class="header__toggle d-lg-none">
           <!-- <img src="images/icon-menu.svg" alt=""> -->
           <span></span>
           <span></span>
           <span></span>
         </a>
         <div class="header__logo">
-          <img src="images/logo.svg" alt="">
+          <!-- <img src="images/logo.svg" alt=""> -->
+          <h1>Naveen Vijayan</h1>
         </div>
         <div class="header__links hide-for-mobile">
-          <a href="#">Collections</a>
-          <a href="#">Men</a>
-          <a href="#">Women</a>
+          <a href="#">Projects</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
+          <!-- <a href="#">About</a>
+          <a href="#">Contact</a> -->
         </div>
-        <div class="flex flex-a-i-c header__user">
+        <!-- <div class="flex flex-a-i-c header__user">
           <div class="header__cart flex flex-j-c-e">
             <img src="images/icon-cart.svg" alt="">
           </div>
           <div class="header__avatar flex flex-a-i-c">
             <img src="images/image-avatar.png" alt="">
           </div>
-        </div>
+        </div> -->
       </nav>
       <!--Menu for mobile-->
       <div class="header__menu">
@@ -57,25 +59,11 @@
       </div>
 
   </header>
-  <section id="banner">
-    <div class="showcase-area sm-fl-y-lg-fl-x">
-      <div class="product_photos">
-        <img src="./images/image-product-1.jpg" id="img-1" class="w-100" alt="Image of shoes">
-        <img src="./images/image-product-2.jpg"  id="img-2" class="w-100" alt="image of shoes one placed vertical and one horizontal">
-        <img src="./images/image-product-3.jpg"  id="img-2" class="w-100" alt="image of shoes one placed vertical and one horizontal">
-        <img src="./images/image-product-4.jpg"  id="img-2" class="w-100" alt="image of shoes one placed vertical and one horizontal">
-
-        <button class="prev-btn"> << </button>
-        <button class="next-btn">>></button>
-      </div>
-      <div class="product_details">
-        <div>Sneaker Company</div>
-        <h1>Fall Limited Edition Sneakders</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate adipisci ut explicabo quae consequatur eum consequuntur temporibus debitis voluptatum, esse dolor dicta dignissimos, ipsam, reprehenderit perspiciatis magnam corrupti fugit facilis molestiae optio! Quisquam nesciunt nostrum sapiente, voluptates rerum veritatis laudantium possimus sequi eligendi vel, porro beatae illum quo magni odio ipsa quos id reprehenderit quod. Dignissimos temporibus neque officia, delectus officiis error aliquid dicta veniam nemo facilis iusto doloremque dolorem mollitia vel. Repellendus debitis earum, labore reprehenderit maxime molestiae, a voluptates ab aspernatur voluptatum magnam beatae culpa aliquam pariatur accusamus, odit delectus incidunt? Nostrum assumenda harum deleniti esse suscipit aliquid?</p>
-        <div class="price">$125.00</div>
-      </div>
-
-    </div>
+  <section id="banner" class="banner">
+      <!-- <div class="typewriter">
+        <h1>The cat and the hat.</h1>
+      </div> -->
+      <p class="line-1 anim-typewriter">I am a web designer and Developer</p>
   </section>
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit tenetur facilis iure vero asperiores et nisi blanditiis rerum vitae dolore.

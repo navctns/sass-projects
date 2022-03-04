@@ -23,7 +23,9 @@ body{
     &-j-c-e{
         justify-content: flex-end;
     }
-
+    &-j-c-s{
+        justify-content: flex-start;
+    }
     &-a-i-c{
         align-items: center;
     }
@@ -80,4 +82,10 @@ a, a:hover{
 
 .container{
     margin:1rem;
+}
+
+.d-lg-none{
+    @media(min-width: 992px){
+        display: none;
+    }
 }

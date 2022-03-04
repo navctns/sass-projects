@@ -1,0 +1,39 @@
+.showcase-area {
+  position: relative;
+  height: 65vh;
+  padding-top: 5rem;
+}
+
+.showcase-area img {
+  height: 100%;
+}
+
+.showcase-area button {
+  position: absolute;
+  top: 50%;
+}
+
+.showcase-area button.prev-btn {
+  left: 5%;
+}
+
+.showcase-area button.next-btn {
+  right: 5%;
+}
+
+.showcase-area .product_photos {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.showcase-area .product_details {
+  position: relative;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+/*# sourceMappingURL=banner.css.map */
